@@ -2,7 +2,7 @@ package com.example.demo.controller;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.example.demo.dependencyinjection.controller.PropertyInjectedController;
+import com.example.demo._01dependencyinjection.controller.PropertyInjectedController;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

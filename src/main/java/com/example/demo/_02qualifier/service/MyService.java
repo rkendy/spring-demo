@@ -1,4 +1,4 @@
-package com.example.demo.dependencyinjection.service;
+package com.example.demo._02qualifier.service;
 
 public interface MyService {
     String myMethod();

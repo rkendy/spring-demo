@@ -1,8 +1,8 @@
-package com.example.demo.dependencyinjection;
+package com.example.demo._01dependencyinjection;
 
-import com.example.demo.dependencyinjection.controller.ConstructorInjectedController;
-import com.example.demo.dependencyinjection.controller.PropertyInjectedController;
-import com.example.demo.dependencyinjection.controller.SetterInjectedController;
+import com.example.demo._01dependencyinjection.controller.ConstructorInjectedController;
+import com.example.demo._01dependencyinjection.controller.PropertyInjectedController;
+import com.example.demo._01dependencyinjection.controller.SetterInjectedController;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

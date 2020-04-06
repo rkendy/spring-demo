@@ -1,4 +1,4 @@
-package com.example.demo.qualifier.service;
+package com.example.demo._02qualifier.service;
 
 import org.springframework.stereotype.Service;
 

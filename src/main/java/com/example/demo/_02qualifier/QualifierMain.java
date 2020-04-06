@@ -1,6 +1,6 @@
-package com.example.demo.qualifier;
+package com.example.demo._02qualifier;
 
-import com.example.demo.qualifier.controller.PropertyInjectedController;
+import com.example.demo._02qualifier.controller.PropertyInjectedController;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

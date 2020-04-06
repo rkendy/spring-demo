@@ -2,8 +2,8 @@ package com.example.demo.controller;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import com.example.demo.dependencyinjection.controller.SetterInjectedController;
-import com.example.demo.dependencyinjection.service.MyServiceImpl;
+import com.example.demo._01dependencyinjection.controller.SetterInjectedController;
+import com.example.demo._01dependencyinjection.service.MyServiceImpl;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
