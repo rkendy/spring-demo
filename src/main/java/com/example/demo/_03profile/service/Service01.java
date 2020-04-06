@@ -10,4 +10,8 @@ public class Service01 {
     // Usage:
     // 01. Set @Qualifier("ServiceName") at controller
     // 02. Set spring.profiles.active=ProfileName1 (application.properties)
+
+    // Default profile:
+    // @Profile({"ProfileName1", "default"})
+
 }

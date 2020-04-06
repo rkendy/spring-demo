@@ -1,0 +1,7 @@
+01 Dependency Injection via:
+    - Contructor
+    - Property
+    - Setter
+02 Qualifier: inject by name. By default, name is the classname, first letter lower case.
+03 Profile: set profile using file property. Default profile can also be set.
+04 LifeCycle. Main: @SpringBootApplication
