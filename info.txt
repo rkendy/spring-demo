@@ -5,3 +5,8 @@
 02 Qualifier: inject by name. By default, name is the classname, first letter lower case.
 03 Profile: set profile using file property. Default profile can also be set.
 04 LifeCycle. Main: @SpringBootApplication
+05 Factory Beans. 
+    - Use SomeServiceConfig for centralized configuration.
+    - Define factory beans in SomeServiceConfig
+    - Define profile in application.properties ("type01", "type02", "type03")
+
