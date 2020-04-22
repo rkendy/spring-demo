@@ -12,8 +12,16 @@ public class PropertyMain {
     public static void main(String[] args) {
         ApplicationContext ap = SpringApplication.run(PropertyMain.class, args);
         PropertyConfig config = (PropertyConfig) ap.getBean("propertyConfig");
+        System.out.println("============ From property:");
         System.out.println(config.getUsername());
         System.out.println(config.getPassword());
+
+        // export SOME_PROPERTY_USERNAME=xxx
+        // will override the "some.property.username" property.
+        // you can also get from Environment:
+        System.out.println("============ From environment:");
+        System.out.println(config.getUsername());
+        System.out.println(config.getUsernameFromEnv());
     }
 
 }
