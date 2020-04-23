@@ -2,8 +2,6 @@ package com.example.demo._06properties;
 
 import com.example.demo._06properties.config.PropertyConfig;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -28,6 +26,8 @@ public class PropertyMain {
         System.out.println(config.getYamlUserName());
         System.out.println(config.getOtherYamlUserName());
 
+        System.out.println("============ From property based on the profile:");
+        System.out.println(config.getPropxyz());
     }
 
 }

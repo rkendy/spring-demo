@@ -54,4 +54,12 @@ public class PropertyConfig {
     public String getOtherYamlUserName() {
         return otherYamlUsername;
     }
+
+    @Value("${propxyz}")
+    String propxyz;
+
+    public String getPropxyz() {
+        return propxyz;
+    }
+
 }
