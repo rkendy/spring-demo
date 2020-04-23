@@ -41,4 +41,17 @@ public class PropertyConfig {
         return env.getProperty("SOME_PROPERTY_USERNAME");
     }
 
+    @Value("${yaml.property.username}")
+    String yamlUsername;
+
+    @Value("${yaml.other.username}")
+    String otherYamlUsername;
+
+    public String getYamlUserName() {
+        return yamlUsername;
+    }
+
+    public String getOtherYamlUserName() {
+        return otherYamlUsername;
+    }
 }

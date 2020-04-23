@@ -1,0 +1,7 @@
+# Yaml option
+yaml:
+  property:
+    username: rkendy
+    password: password
+  other:
+    username: xyzuser
